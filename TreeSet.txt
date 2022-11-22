@@ -1,0 +1,23 @@
+TreeSet class:
+This class is the implementation of Set and SortedSet interface.
+In this implementation, objects are sorted and stored in ascending order according to their natural order.
+The TreeSet uses a self-balancing binary search tree.
+Java TreeSet class contains unique elements only like HashSet.
+Java TreeSet class doesn't allow null element. even a single null is also not allowed otherwise it throws
+NullPointerException at runtime.
+Example:
+import java.util.TreeSet;
+class Main{
+public static void main(String args[]){
+TreeSet<String> ts=new TreeSet<String>();
+ts.add("Delhi");
+ts.add("Mumbai");
+ts.add("Chennai");
+ts.add("Bangaluru");
+System.out.println(ts);
+}
+}
+Output:
+[Bangaluru, Chennai, Delhi, Mumbai] //In sorted order
+Note: TreeSet class by default only accept the Comparable object. if we try to add any non-comparable object inside the
+TreeSet object, then at runtime it will throw a ClassCastException.
