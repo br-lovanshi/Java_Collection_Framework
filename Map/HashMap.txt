@@ -1,0 +1,55 @@
+HashMap:
+=======
+
+
+Java HashMap class implements the Map interface which allows us to store key and value pair, where keys should be unique.
+
+HashMap class is found in the java.util package.
+
+ It allows us to store the null elements as well, but there should be only one null key. Since Java 5, it is denoted as HashMap<K,V>, where K stands for key and V for value. It inherits the AbstractMap class and implements the Map interface.
+
+Key Point :-
+==========
+
+1.Java HashMap contains values based on the key.
+2.Java HashMap contains only unique keys.
+3.Java HashMap may have one null key and multiple null values.
+4.Java HashMap is non synchronized.
+5.Java HashMap maintains no order.
+
+Signiture :-
+===========
+
+HashMap<K,V> map = new HashMap<>();
+
+Hierarchy of HashMap class
+=========================
+
+As shown in the above figure, HashMap class extends AbstractMap class and implements Map interface.
+
+
+
+Methods of Java HashMap class
+
+boolean containsKey();
+
+int size()
+
+map.put();
+
+map.clear();
+
+Map.EntrySet();
+
+void putAll(Map map)
+
+boolean equals(Object o)
+
+
+
+  HashMap<Integer,String> map=new HashMap<Integer,String>();//Creating HashMap    
+   map.put(1,"Mango");  //Put elements in Map  
+   map.put(2,"Apple");    
+   map.put(3,"Banana");   
+   map.put(4,"Grapes");   
+       
