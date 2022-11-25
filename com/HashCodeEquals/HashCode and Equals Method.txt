@@ -1,0 +1,178 @@
+
+
+
+HashCode() and equals() are important to check weather two object equalse or not.
+
+
+equals();
+-----------
+
+package
+java.lang.object;
+
+
+============================
+public boolean equals(Object obj){
+
+return true //false;
+
+}
+
+
+hashCode():
+---------------
+package
+java.lang.object;
+
+
+
+public int hashCode();
+
+
+
+
+exmp 1:- 
+---------
+
+
+String a = "ram";//  hashCode() is 2020
+String b = "ram";//hashCode() is 2020
+
+equals() method check value and return true/false;
+
+if(a.equals(b))
+{
+return true;
+}
+
+
+
+exmp 2- 
+---------
+
+
+String a = "ram";//  hashCode() is 2020
+String b = "am";//hashCode() is 200
+
+equals() method check value and return true/false;
+
+if(a.equals(b))
+{
+return false;
+}
+
+
+*** recommende to overridde both equals() and hashCode();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+java.lang.object;
+
+
+public boolean equals(Object obj){
+
+return true;//false;
+
+}
+
+Int value Obj in java 
+
+hashCodeI();
+
+
+public int hashCode(){
+
+return 2020;
+
+}
+
+
+
+String a = "ram";
+
+String b = "shaym";
+
+   if(a.equals(b))
+return false;
+
+int b = a.hashCode();//2020
+
+int b = b.hashCode();//2030
+
+
+
+
+
+
+equals();
+java.lang.obj;
+
+
+String a = "ram";//2020
+String b = "am";//2030
+
+return false;
+
+
+
+
+
+public boolean equals(Object obj){
+
+
+return true;//false;
+
+}
+
+hashCode();
+
+
+int ;
+
+public int hashCode(){
+
+return int;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

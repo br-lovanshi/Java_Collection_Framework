@@ -1,0 +1,35 @@
+Onlilne trip management System 
+
+
+admin Body :-
+===========
+
+{
+  "adminEmail": "BrajeshLovanshi",
+
+  "adminMobile": "984373944",
+  "adminName": "Brajesh Lovanshi",
+  "user": {
+    
+  }
+}
+
+UUID :
+=++++   nIksE1
+
+
+Hotel :
+=======
+
+{
+ "hotelAddress": "indore",
+  "hotelDescription": "abc",
+  
+  "hotelName": "taj",
+  "hotelRent": 3999,
+  "hotelRooms": 10,
+  "hotelStatus": "open",
+  "hotelType": "5 star"
+}
+
+
