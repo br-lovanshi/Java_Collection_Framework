@@ -1,0 +1,57 @@
+Exception Handling:
+===================
+
+
+The Exception Handling in Java is one of the powerful mechanisms to handle the runtime
+errors
+so that the normal flow of the application can be maintained.
+
+In Java, an exception is an unwanted or unexpected event, which occurs during the execution
+of a program i.e. at run time, that disrupts the normal flow of the program’s instructions.
+
+Technically in Java, an exception is an object of some java classes that will be created by the
+JVM at runtime whenever any Logical error occurs in our java application.
+
+The java.lang.Throwable class.
+
+
+Error vs Exception:
+================
+
+Error: 
+=====
+An Error indicates a serious problem
+
+Exception:
+==========
+ The exception indicates conditions that a reasonable application might try to
+catch.
+
+
+Difference between Checked and Unchecked Exceptions:
+
+
+1. Checked Exception: The classes that directly inherit the Throwable class except
+RuntimeException and Error are known as checked exceptions. For example, IOException,
+SQLException, etc.Checked exceptions are called compile-time exceptions.
+
+2. The classes that inherit the RuntimeException are known as
+unchecked exceptions. For example, ArithmeticException, NullPointerException,
+ArrayIndexOutOfBoundsException, etc.
+
+
+exp :- 
+
+try{
+//code that may raise exception
+int data=100/0;
+System.out.println(data);
+
+Day9: Regular Expression, Pattern Matchers, Exception Handling 14
+
+}catch(ArithmeticException e){
+System.out.println(e);
+}
+//rest code of the program
+System.out.println("rest of the code...");
+}
